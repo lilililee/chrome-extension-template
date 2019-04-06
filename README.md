@@ -17,5 +17,12 @@ npm run build2
 ## 生产环境
 打包后在chrome安装扩展package下的文件夹
 
+## 预览
+页面配置风格
+![风格1](https://user-images.githubusercontent.com/24242242/55666891-8b281580-5887-11e9-8e3b-23651acb463e.png)
+
+文件读取风格
+风格2
+![风格2](https://user-images.githubusercontent.com/24242242/55666890-88c5bb80-5887-11e9-9dc0-0bf118407da8.png)
 
 
