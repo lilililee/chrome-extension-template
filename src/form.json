@@ -1,0 +1,91 @@
+[
+  {
+    "name": "计划名称",
+    "key": "name",
+    "type": "text"
+  },
+  {
+    "name": "建立的广告数量",
+    "key": "adCounte",
+    "type": "number"
+  },
+  {
+    "name": "媒体",
+    "key": "media",
+    "type": "select",
+    "selectList": ["腾讯新闻", "腾讯视频"],
+    "default": "腾讯新闻"
+  },
+  {
+    "name": "推广目标",
+    "key": "sysTarget",
+    "type": "select",
+    "selectList": ["安卓", "ios"],
+    "default": "安卓"
+  },
+  {
+    "name": "应用ID",
+    "key": "AppID",
+    "type": "text"
+  },
+  {
+    "name": "行业",
+    "key": "industry",
+    "type": "text"
+  },
+  {
+    "name": "子行业",
+    "key": "subIndustry",
+    "type": "text"
+  },
+  {
+    "name": "性别",
+    "key": "sex",
+    "type": "select",
+    "selectList": ["男", "女"],
+    "default": "男"
+  },
+  {
+    "name": "联网",
+    "key": "network",
+    "type": "checkbox",
+    "selectList": ["wifi", "4G", "3G", "2G"]
+  },
+  {
+    "name": "付费情况",
+    "key": "isCash",
+    "type": "checkbox",
+    "selectList": ["App付费", "电商付费", "潜在付费"]
+  },
+  {
+    "name": "自定义人群搜索包",
+    "key": "cusPeopleSearch",
+    "type": "text"
+  },
+  {
+    "name": "自定义人群排除包",
+    "key": "cusPeopleExclude",
+    "type": "text"
+  },
+  {
+    "name": "adt标记",
+    "key": "adtMark",
+    "type": "text"
+  },
+  {
+    "name": "qq账号",
+    "key": "QQAccount",
+    "type": "number"
+  },
+  {
+    "name": "qq密码",
+    "key": "QQPassword",
+    "type": "password"
+  },
+  {
+    "name": "是否保量",
+    "key": "isSafeCount",
+    "type": "checkbox",
+    "selectList": ["是"]
+  }
+]

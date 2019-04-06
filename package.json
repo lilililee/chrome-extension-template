@@ -1,0 +1,45 @@
+{
+  "name": "tf-20180903-chrome-jfd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=develop&&webpack --watch",
+    "dev2": "set NODE_ENV=develop&&set style=app2&&webpack --watch",
+    "build": "set NODE_ENV=production&& webpack",
+    "build2": "set NODE_ENV=production&&set style=app2&& webpack",
+    "server": "pushstate-server ./dist 3334"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.3k.com/web/PM/tf-20180903-chrome-jfd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.0",
+    "file-loader": "^1.1.4",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "pushstate-server": "^3.0.1",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.7",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.17",
+    "xlsx": "^0.13.5"
+  }
+}
